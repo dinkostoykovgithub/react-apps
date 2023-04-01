@@ -1,0 +1,11 @@
+.bolded {
+    font-weight: 700;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.centered {
+    text-align: center;
+}

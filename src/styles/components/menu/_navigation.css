@@ -1,0 +1,32 @@
+.navigation {
+    background: #add4d3;
+}
+
+.navigation_items-holder {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation_item {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.navigation_link {
+    display: block;
+    padding: 10px 10px;
+    text-decoration: none;
+    line-height: 1.25;
+}
+
+.navigation_link.active {
+    background: #ff7500;
+    color: #fff;
+}
+
+@media (min-width: 1280px) {
+    .navigation_link:hover {
+        background: #ff7500;
+        color: #fff;
+    }
+}

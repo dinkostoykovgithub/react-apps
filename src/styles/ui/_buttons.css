@@ -1,0 +1,25 @@
+.button {
+    display: inline-block;
+    min-width: 140px;
+    text-decoration: none;
+    padding: 11px 10px;
+    margin: 0 0 10px 0;
+    white-space: nowrap;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+a.button-primary,
+.button-primary {
+    background: #ff7500;
+    color: #fff;
+}
+
+@media (min-width: 1280px) {
+    a.button-primary:hover,
+    .button-primary:hover {
+        background-color: #eb6c00;
+        color: #fff;
+    }
+}

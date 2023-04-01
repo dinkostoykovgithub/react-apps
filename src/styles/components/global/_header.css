@@ -1,0 +1,27 @@
+.header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    max-width: 150px;
+}
+
+.header__link {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.header__link.active {
+    color: #ff7500;
+}
+
+.header__account-links {
+    align-self: center;
+}
+
+.header__account-links .header__link {
+    padding: 8px;
+    margin: 0 0 0 5px;
+}

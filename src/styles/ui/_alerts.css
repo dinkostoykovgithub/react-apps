@@ -1,0 +1,10 @@
+.msg {
+    position: relative;
+    padding: 10px 10px;
+    margin: 0 0 20px 0;
+}
+
+.error-msg {
+    background-color: #ed4337;
+    color: #fff;
+}
